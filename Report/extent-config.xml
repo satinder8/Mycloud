@@ -1,0 +1,43 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+ 
+   
+    <!-- report theme -->
+    <!-- standard, dark -->
+    standard
+   
+    <!-- document encoding -->
+    <!-- defaults to UTF-8 -->
+    UTF-8
+     
+    <!-- protocol for script and stylesheets -->
+    <!-- defaults to https -->
+    https
+     
+    <!-- title of the document -->
+    ExtentReports 2.0
+     
+    <!-- report name - displayed at top-nav -->
+    Automation Report
+     
+    <!-- report headline - displayed at top-nav, after reportHeadline -->
+     
+     
+    <!-- global date format override -->
+    <!-- defaults to yyyy-MM-dd -->
+    yyyy-MM-dd
+     
+    <!-- global time format override -->
+    <!-- defaults to HH:mm:ss -->
+    HH:mm:ss
+     
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[ $(document).ready(function() { }); ]]>
+    </scripts>
+     
+    <!-- custom styles -->
+    <styles>
+      <![CDATA[ ]]>
+    </styles>
+  </configuration>
+</extentreports>
